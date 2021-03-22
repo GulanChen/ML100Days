@@ -1,0 +1,17 @@
+[簡答題] 請問 type(...) 跟 a.dtype 這兩個語法有什麼不同？
+type表示數據結構類型（如list、dict、numpy.ndarray 等） 而dtype則是數據元素的數據類型如（有Boolean, Numeric, string 等等）資料的形式
+請撰寫一個判斷 a 的元素是否等於指定資料型!
+import numpy as np
+
+a=np.random.randint(10,size=6)
+print(a)
+print(type(a))
+
+b=a[2]
+print(b)
+print(type(b))
+print(b.dtype)
+
+print(b.dtype=="int32")
+
+[簡答題] 承上題，請判斷下列三種寫法為何不正確？
