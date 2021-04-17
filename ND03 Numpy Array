@@ -20,3 +20,4 @@ m=10
 n=30
 X=np.random.randint(m,n,5)
 print(X)
+
